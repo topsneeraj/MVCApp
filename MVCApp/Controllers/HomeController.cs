@@ -17,9 +17,9 @@ namespace MVCApp.Controllers
         }
         public void add()
         {
-            int a= 10;
-            int b = 30;
-            int c = a + b;
+            var a= 10;
+            var b = 30;
+            var c = a + b;
         }
 
         public ActionResult About()
