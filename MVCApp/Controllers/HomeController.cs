@@ -15,11 +15,9 @@ namespace MVCApp.Controllers
           /// added new test controller 
             return View();
         }
-        public void add()
+        public int  add(int a ,int b)
         {
-            int a= 10;
-            int b = 30;
-            int c = a + b;
+           return a + b;
         }
 
         public ActionResult About()
