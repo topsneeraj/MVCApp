@@ -17,6 +17,7 @@ namespace MVCApp.Controllers
         }
         public int  add(int a ,int b)
         {
+        var c = 40
            return a + b;
         }
 
